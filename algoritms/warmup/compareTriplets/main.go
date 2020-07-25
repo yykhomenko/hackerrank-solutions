@@ -19,6 +19,7 @@ func compareTriplets(a []int32, b []int32) []int32 {
 			bob++
 		}
 	}
+
 	return []int32{alice, bob}
 }
 
