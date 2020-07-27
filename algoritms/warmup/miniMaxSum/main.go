@@ -17,8 +17,5 @@ func miniMaxSum(arr []int32) {
 		}
 	}
 
-	fmt.Println(
-		sum-int64(max),
-		sum-int64(min),
-	)
+	fmt.Println(sum-int64(max), sum-int64(min))
 }
