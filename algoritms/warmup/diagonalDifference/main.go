@@ -1,12 +1,5 @@
 package main
 
-/*
- * Complete the 'diagonalDifference' function below.
- *
- * The function is expected to return an INTEGER.
- * The function accepts 2D_INTEGER_ARRAY arr as parameter.
- */
-
 func diagonalDifference(arr [][]int32) int32 {
 	var sumA, sumB int32
 	for i := 0; i < len(arr); i++ {
