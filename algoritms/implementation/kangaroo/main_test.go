@@ -26,6 +26,9 @@ func Test_kangaroo(t *testing.T) {
 			if got := kangaroo(tt.args.x1, tt.args.v1, tt.args.x2, tt.args.v2); got != tt.want {
 				t.Errorf("kangaroo() = %v, want %v", got, tt.want)
 			}
+			if got := kangarooBetter(tt.args.x1, tt.args.v1, tt.args.x2, tt.args.v2); got != tt.want {
+				t.Errorf("kangarooBetter() = %v, want %v", got, tt.want)
+			}
 		})
 	}
 }
