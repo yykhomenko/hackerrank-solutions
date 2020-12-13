@@ -7,8 +7,7 @@ func TestSuperDigit(t *testing.T) {
 		args string
 		want int32
 	}{
-		{"", 0},
-		{"0", 0},
+		{"1", 1},
 		{"5", 5},
 		{"9875", 2},
 		{"9875987598759875", 8},
