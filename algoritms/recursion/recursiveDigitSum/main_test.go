@@ -18,3 +18,14 @@ func TestSuperDigit(t *testing.T) {
 		}
 	}
 }
+
+var Res int32
+
+func BenchmarkSuperDigit(b *testing.B) {
+	str := "9875987598759875"
+	l := int32(len(str))
+	b.ResetTimer()
+	for i := 0; i < b.N; i++ {
+		Res = superDigit(str, l)
+	}
+}
